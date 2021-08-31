@@ -7,6 +7,7 @@ buildscript {
 
         dependencies {
             classpath 'com.android.tools.build:gradle:3.5.3'
+            classpath 'com.meituan.android.walle:plugin:1.1.7'
         }
     }
 }
@@ -55,4 +56,5 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation 'com.meituan.android.walle:library:1.1.7'
 }

@@ -14,8 +14,8 @@ npm install react-native-walle-channel
 import WalleChannel from "react-native-walle-channel";
 
 // ...
-
-const result = await WalleChannel.multiply(3, 7);
+WalleChannel.getChannel();
+WalleChannel.getExtraInfo();
 ```
 
 ## Contributing

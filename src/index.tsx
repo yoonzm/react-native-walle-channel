@@ -1,7 +1,10 @@
 import { NativeModules } from 'react-native';
 
 type WalleChannelType = {
-  multiply(a: number, b: number): Promise<number>;
+  getChannel(): Promise<string>;
+  getExtraInfo(): Promise<{
+    [key: string]: string;
+  }>;
 };
 
 const { WalleChannel } = NativeModules;

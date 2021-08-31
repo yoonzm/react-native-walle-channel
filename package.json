@@ -11,7 +11,6 @@
     "src",
     "lib",
     "android",
-    "ios",
     "cpp",
     "react-native-walle-channel.podspec",
     "!lib/typescript/example",
@@ -28,8 +27,7 @@
     "prepare": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
-    "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "bootstrap": "yarn example && yarn"
   },
   "keywords": [
     "react-native",
