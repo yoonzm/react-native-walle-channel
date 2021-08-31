@@ -1,6 +1,6 @@
 {
   "name": "react-native-walle-channel",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "美团多渠道打包插件 react-native sdk",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
